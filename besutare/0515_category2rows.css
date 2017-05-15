@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017/05/15, 12:23:52
+    Author     : jiro
+*/
+
+/*サイドバーのカテゴリをタグクラウド風に表示する
+#sidebar1 li.cat-item {
+	margin-top:5px;
+	vertical-align: top;
+	list-style:none;
+	float:left;
+	border: 0px solid #006699;
+	background-color:#f8f8f8;
+	margin-right: 5px;
+	margin-bottom:2px;	
+	border-radius: 5px;
+	color: black;
+}
+
+#sidebar1 li.cat-item a{
+}
+
+#sidebar1 li.cat-item a:hover{
+}
+*/
+.widget_categories ul {
+	display:inline-block;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.widget_categories ul li {
+
+}
+
+.widget_categories ul li.cat-item {
+	width:165px;
+	float: left;
+	margin:0 auto;
+	display:inline-block;
+}
+
+.widget_categories .children {
+
+}
+
+.widget_categories ul li a {
+	display: inline-block;
+	position: relative;
+    max-width: 165px;
+    height: 40px;
+    line-height: 30px;
+    padding: 0 4.2em 0 .6em;
+    font-size: 1.0em;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: .2s;
+    transition: .2s;
+    -webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+.widget_categories ul li a:hover {
+	background-color: #3498db;
+	border: 1px solid #3498db;
+	color: #fff;
+}
+
+.widget_categories .cat-item a{
+	color:black;
+	background-color:#eee;
+}
+
+.widget_categories .children a {
+	background-color:#fff;
+	color:black;
+	font-size:0.8em;
+}
+
+
+

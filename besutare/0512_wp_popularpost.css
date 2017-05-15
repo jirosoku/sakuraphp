@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017/05/15, 12:22:51
+    Author     : jiro
+*/
+
+
+/*
+Wordpress Popular Posts plugin stylesheet
+Developed by Hector Cabrera
+cabrerahector.com | @cabrerahector
+
+Use the following classes to style your popular posts list as you like.
+*/
+
+/* Styles the "Sorry, no data so far" message */
+
+.wpp-no-data {
+}
+
+
+
+div.popular-posts{
+    text-align: center;
+}
+
+div.popular-posts h4{
+    margin-bottom: 5px;
+}
+
+/* UL - Popular Posts container styles */
+.wpp-list {     
+    background-color: red;
+    width:720px;
+    height:auto;
+    display:inline-block;
+    list-style: none;
+    padding: 0;
+    margin:0 auto;
+}
+
+    /* LI - Post container styles */
+    .wpp-list li {
+        background-color: gray;
+        width:160px;
+        float: left;
+        display:block;    
+        text-align: center;
+        margin:5px 10px 5px 10px !important;
+        
+        /*overflow: hidden;
+        float: none;
+        clear: both;*/
+    }
+     
+    
+     .wpp-list li a{
+        display: inline-block;
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+
+    
+        /* Thumbnail styles */
+        .wpp-thumbnail {
+            width:160px;
+            height:160px; 
+            border:none;
+            display: block;
+            background-color: orange;
+        }
+
+        /* Title styles */
+        .wpp-post-title {
+            color: #333;
+            font-size:16px;
+            font-weight:bold;
+            text-decoration: none;  
+            background-color: yellow;
+            width:160px;
+            height: 60px;
+            display: inline-block;
+            overflow: hidden;
+            letter-spacing: -.02em;
+            line-height: 1.2em;
+
+        }
+  
+        /* Stats tag styles */
+        .post-stats {
+            display:block;
+            font-size:9px;
+            font-weight:bold;
+        }
+            
+            /* Post date styles */
+            .wpp-date {
+            text-align: center;
+            color: #9e9e9e;
+            font-size: 12px;
+            line-height: 16px;
+              }
+
+            /*ランキングの数字のCSS*/
+            ul.wpp-list li a:before{
+                font-size: 1.5em;
+              }
+            
+            /* Post category styles */
+            .wpp-category {
+            }
+        
+        /* WP-PostRatings styles */
+        .wpp-rating {
+        }
+
+             /* Comments count styles */
+            .wpp-comments {
+            }
+            
+            /* Views count styles */
+            .wpp-views {
+            }
+            
+            /* Author styles */
+            .wpp-author {
+            }
+                  /* Excerpt styles */
+        .wpp-excerpt {
+        }
+        
+            /* Styles for the popular post in view */
+    .wpp-list li.current {
+    }
+       

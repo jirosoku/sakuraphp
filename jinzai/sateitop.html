@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf8">
+<title>査定サイト情報入力</title>
+</head>
+<body>
+  <h1>事業の売却可能性を診断します</h1>
+    <form action="satei.php" method=“post”>
+        <p>事業名を入力（文字列）: <input type="text" name=“name” required></p>
+        <p>業種名を入力（製造業）: <input type="text" name=“sector” required></p>
+        <p>FCFを入力（百万円）: <input type="number" name=“fcf” required></p>
+        <p>WACCを入力（%）: <input type="number" name=“wacc” required></p>
+        <p><input type="submit" name=“submit” value="診断する"></p>
+    </form>
+</body>
+</html>

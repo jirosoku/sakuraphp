@@ -1,57 +1,114 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 2017/05/29, 15:30:52
-    Author     : jiro
-*/
-
-/*0529 ougonka.netのフッター領域のデザイン変更*/
-
-div#footer-brand-area {
-    background: red;
+/*0618 黄金化.netのフッターCSSを改良*/
+#footer .footer-01 {
+    background: #999999;
+    padding:0;
 }
 
-.footer-logo{
-    background:gold;
+#footer .footer-02 {
+    line-height:50px;
 }
 
-div#footer-cont-about{
-    background:gray;
-
-
+#footer-content-area .row {
+ 
 }
 
-div#footer-cont-content {
-    background: green;
-
+#footer .wrap {
+    padding: 0;
 }
 
-div#footer-cont-sns{
-    background:pink;
-
-}
-
-.footertext {
-    background: gold;
-}
-
-.footer-address{
-  background: aqua;
-
-}
-
-.footer-01 .wrap {
-    display:block;
-    background:purple;
-    width:100% !important;
+#footer-gnav {
+    width:380px;
     height:auto;
+}
+
+#footer-gnav ul {
+}
+
+#footer-gnav li {
+}
+
+#footer-gnav li a {
+    display:block;
+    font-size: 1.0em;
+    text-decoration: none;
+    width: 380px;
+    margin-bottom:5px;    
+}
+
+#footer-brand-area{
+    /* background:red; */
+    /* border: 1px solid yellow; */
+}
+
+#footer-widget-left {
+    float: left;
+    width: 33%;
+    border: 1px solid yellow;
+}
+
+#footer-widget-left h3.footer-menutitle {
+    font-size:1.5em;
+    color:black;
 
 }
 
-.footer-02 .wrap {
-    background: skyblue;
+#footer-widget-center {
+    float: left;
+    width: 33%;
+    border: 1px solid yellow;
 }
-/*0529 ougonka.netのフッター領域のデザイン変更*/
+
+#footer-widget-center h3.footer-menutitle {
+    font-size:1.5em;
+    color:black;
+}
+
+#footer-widget-right {
+    float: left;
+    width: 33%;
+    border: 1px solid yellow;
+}
+#footer-widget-right h3.footer-menutitle {
+    font-size:1.5em;
+    color:black;
+
+}
+
+#footer-ougonka{
+    display:block;
+    width:1300px;
+}
+
+.footer-logo.gr6 {
+    margin-top:20px;
+    margin-bottom:5px;
+    width:600px;
+    float:left;
+  }
+
+#footer-cont-sns {
+    width:600px;
+    line-height:38px;
+    display:block;
+    float:left;
+    margin:20px 0 auto;
+  }
+
+#footer-cont-sns li {
+    width: 120px;
+    float:left;
+    border-left:0.5px dotted;
+    margin-right:10px;
+    text-align:center;
+}
+
+#footer-cont-sns li:last-child{
+    border-right:0.5px dotted;
+}
+
+/*h4タイトル不要なので表示させない*/
+#footer-cont-sns h4{
+    visibility:hidden;
+    height:0;
+  }
+/*h4タイトル不要なので表示させない*/
